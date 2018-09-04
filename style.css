@@ -7,6 +7,15 @@ body {
   margin: 0 0;
 }
 
+a {
+  color: white;
+  font-size: 0.8em;
+}
+
+ul {
+  margin-top: 0.2em;
+}
+
 li {
   list-style: none;
   font-size: 0.75em;
@@ -26,23 +35,30 @@ li {
   margin: 1em;
 }
 
+.member-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;  
+}
+
 .member-details {
-  display: inline-block;
-  height: 5em;
+  flex-basis: 10em;
   margin-left: 2em;
 }
 
 .member-details > h3 {
   margin-top: 0;
-  margin-bottom: auto;
+  margin-bottom: 0;
 }
 
 .member-photo {
   border-radius: 50%;
   height: 5em;
-  display: inline-block;
+  flex-basis: 5em;
   border: 5px solid white;
-  margin: auto;
+  margin-left: 0;
 }
 
 .members-header, .topic-header {
