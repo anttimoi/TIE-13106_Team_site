@@ -54,11 +54,34 @@ li {
 }
 
 .member-photo {
-  border-radius: 50%;
   height: 5em;
   flex-basis: 5em;
+  margin-left: 0;
+  border-radius: 50%;
+}
+
+.member-photo-face {
+  opacity: 1;
+  height: 5em;
   border: 5px solid white;
   margin-left: 0;
+  border-radius: 50%;  
+}
+
+.member-photo-dealwithit {
+  opacity: 0;
+  top: -5.6em;
+  left: 0;
+  height: 5em;
+  width: 5em;
+  border: 5px solid #00000000;
+  margin-left: 0;
+  border-radius: 50%;
+  position: relative;
+}
+
+.member-photo-dealwithit:hover {
+  opacity: 1;
 }
 
 .members-header, .topic-header {
