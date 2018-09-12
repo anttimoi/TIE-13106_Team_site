@@ -73,3 +73,11 @@ li {
   justify-content: space-evenly;
   align-content: space-between;
 }
+
+.hour-log {
+  width: 100%
+}
+
+.hour-log-current td {
+  border-bottom: 1px solid white;
+}
