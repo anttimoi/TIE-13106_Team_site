@@ -21,6 +21,13 @@ li {
   font-size: 0.75em;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
 .header {
   background: #37474f;
   padding: 1em;
@@ -89,7 +96,7 @@ li {
   text-align: center;
 }
 
-.members-container, .topic-container {
+.members-container, .topic-container, .used-tech {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -103,4 +110,29 @@ li {
 
 .hour-log-current td {
   border-bottom: 1px solid white;
+}
+
+.section-title-major, .section-title-minor {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.section-title-major {
+  background: #546e7a;
+  padding: 0.75em 0.75em;
+}
+
+.section-title-minor {
+  background: #546e7a;
+  padding: 0.5em 0.5em;
+}
+
+.used-tech img {
+  object-fit: contain;
+  max-width: 6em;
+  margin: 2em 2em;
+}
+
+.burnup img {
+  max-width: 80%;
 }
